@@ -11,20 +11,22 @@ const Navbar = () => {
   return (
     <div>
         <BrowserRouter>
-            <div className="container">
-                <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-                    <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                        <span className="fs-4">Simple header</span>
-                    </a>
-
-                    <ul className="nav nav-pills">
-                        <li className="nav-item"><NavLink exact to='/' className='nav-link'>Home</NavLink></li>
-                        <li className="nav-item"><NavLink to='/people' className='nav-link'>People</NavLink></li>
-                        <li className="nav-item"><NavLink to='/undergraduate' className='nav-link'>Undergraduate</NavLink></li>
-                        <li className="nav-item"><NavLink to='/courses' className='nav-link'>Courses</NavLink></li>
-                    </ul>
-                </header>
-            </div>
+            <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <div className="container-fluid">
+                    <a className="navbar-brand">Department of Mathematics and Statistics</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul className="navbar-nav">
+                            <li className="nav-item"><NavLink exact to='/' className='nav-link'>Home</NavLink></li>
+                            <li className="nav-item"><NavLink to='/people' className='nav-link'>People</NavLink></li>
+                            <li className="nav-item"><NavLink to='/undergraduate' className='nav-link'>Undergraduate</NavLink></li>
+                            <li className="nav-item"><NavLink to='/courses' className='nav-link'>Courses</NavLink></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
             <Switch>
                 <Route exact path="/">
