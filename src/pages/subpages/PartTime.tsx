@@ -5,7 +5,7 @@ import PartTimeCard from '../../components/PartTimeCard';
 const PartTime = (props: any) => {
     const createCard = (person: any) => {
         return (
-            <div className="col">
+            <div className="col-lg-4">
                 <PartTimeCard
                     key = {person.id}
                     name = {person.name}

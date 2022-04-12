@@ -5,7 +5,7 @@ import fullTimeFaculty from '../../data/full-time-faculty';
 const FullTime = () => {
     const createCard = (person: any) => {
         return (
-            <div className="col">
+            <div className="col-lg-4">
                 <FullTimeCard
                     key = {person.id}
                     name = {person.name}

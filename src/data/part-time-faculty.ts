@@ -35,6 +35,37 @@ const partTimeFaculty = [
         position: 'Adjunct Lecturer',
         email: 'bbarone@hunter.cuny.edu'
     },
+    {
+        id: 'bbarone',
+        name: 'Barbara Barone',
+        position: 'Adjunct Lecturer',
+        email: 'bbarone@hunter.cuny.edu'
+    },
+    {
+        id: 'sbenedict',
+        name: 'Samantha Benedict',
+        position: 'Adjunct Lecturer',
+        email: 'samantha.benedict80@myhunter.cuny.edu'
+    },
+    {
+        id: 'dberlyne',
+        name: 'Daniel Berlyne',
+        position: 'Graduate Teaching Fellow',
+        email: 'dberlyne@gradcenter.cuny.edu'
+    },
+    {
+        id: 'jberman',
+        name: 'Jared Berman',
+        position: 'Adjunct Lecturer',
+        email: 'jaymberman@gmail.com'
+    },
+
+    // {
+    //     id: '',
+    //     name: '',
+    //     position: '',
+    //     email: ''
+    // },
 ]
 
 export default partTimeFaculty;
