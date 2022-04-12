@@ -11,9 +11,9 @@ const Navbar = () => {
   return (
     <div>
         <BrowserRouter>
-            <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar fixed-top navbar-expand-lg navbar-dark" style={{backgroundColor: '#5f259f'}}>
                 <div className="container-fluid">
-                    <a className="navbar-brand">Department of Mathematics and Statistics</a>
+                    <NavLink exact to='/' className="navbar-brand">Department of Mathematics and Statistics</NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
