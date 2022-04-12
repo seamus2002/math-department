@@ -5,7 +5,7 @@ import mathCourses from '../../data/math-courses';
 const MathCourses = () => {
     const createCard = (course: any) => {
         return (
-            <div className="col">
+            <div className="col d-flex">
                 <CourseCard 
                     course = {course.course}
                     title = {course.title}

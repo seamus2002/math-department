@@ -5,7 +5,7 @@ import statCourses from '../../data/stat-courses';
 const StatCourses = () => {
     const createCard = (course: any) => {
         return (
-            <div className="col">
+            <div className="col d-flex">
                 <CourseCard 
                     course = {course.course}
                     title = {course.title}

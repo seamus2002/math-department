@@ -1,8 +1,6 @@
 import React from 'react';
-import PartTime from '../pages/subpages/PartTime';
 
 const FullTimeCard = (props: any) => {
-	const TagName = props.key;
   	return (
 		<div>
 			<div className="card mx-auto">
