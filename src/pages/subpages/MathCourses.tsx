@@ -1,0 +1,30 @@
+import React from 'react';
+import CourseCard from '../../components/CourseCard';
+import mathCourses from '../../data/math-courses';
+
+const MathCourses = () => {
+    const createCard = (course: any) => {
+        return (
+            <div className="col">
+                <CourseCard 
+                    course = {course.course}
+                    title = {course.title}
+                    description = {course.description}
+                    credits = {course.credits}
+                />
+            </div>
+        );
+    }
+
+    return (
+        <div>
+            <div className='container'>
+                <div className="row">
+                    {mathCourses.map(createCard)}
+                </div>  
+            </div>
+        </div>
+    );
+}
+
+export default MathCourses;
