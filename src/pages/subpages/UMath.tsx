@@ -63,7 +63,7 @@ const UMath = () => {
                     <li>CSCI 23200: Relational Databases and SQL Programming, with Lab</li>
                     <li>CHEM 10200: General Chemistry I</li>
                     <li>CHEM 10400: General Chemistry II</li>
-                    <li>CHEM 10600: General Chemistry Laboratory (or equivalent)</li>
+                    <li>CHEM 10600: General Chemistry Laboratory (<i>or equivalent</i>)</li>
                     <li>CHEM 22200: Organic Chemistry Lecture I</li>
                     <li>BIOL 10000: Principles of Biology I</li>
                     <li>BIOL 20300: Molecular Biology and Genetics</li>
