@@ -11,6 +11,7 @@ const StatCourses = () => {
                     title = {course.title}
                     description = {course.description}
                     credits = {course.credits}
+                    prereqs = {course.prereqs}
                 />
             </div>
         );

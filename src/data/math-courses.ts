@@ -6,7 +6,7 @@ const mathCourses = [
         semesters: 'Fall, Spring, Summer',
         credits: '3',
         description: 'Symbolic logic, sets, number systems, relations and operations and topics in probability and statistics.',
-        prereqs: ''
+        prereqs: 'None'
     },
     {
         id: 'math10100',
@@ -15,7 +15,7 @@ const mathCourses = [
         semesters: 'Fall, Spring, Summer',
         credits: '3',
         description: 'Topics in algebra, graphing and functions. Includes: algebraic and graphical solutions to systems of equations and inequalities; absolute value, polynomial, rational and radical expressions and equations; complex numbers; the function concept; introduction to polynomial, rational and exponential functions and their graphs.',
-        prereqs: ''
+        prereqs: 'Math Proficient and appropriate score on Hunter Math Placement Exam'
     },
     {
         id: 'math10200',
@@ -24,7 +24,7 @@ const mathCourses = [
         semesters: 'Fall, Spring, Summer',
         credits: '3',
         description: 'Students will learn how to model real world problems with mathematics, and learn techniques for solving them. Topics include personal finance, statistical reasoning, probability, exponential growth, and voting theory.',
-        prereqs: ''
+        prereqs: 'None'
     },
     {
         id: 'math15000',
@@ -33,7 +33,7 @@ const mathCourses = [
         semesters: 'Fall, Spring, Summer',
         credits: '4',
         description: 'Limits, continuity, differentiation and integration of elementary functions and trigonometric functions, applications.',
-        prereqs: ''
+        prereqs: 'MATH 12550 with a B- or better, or (coreq MATH 14000 and one of MATH 12400, MATH 12500, or MATH 12550), or appropriate score on Hunter Math Placement Exam'
     },
     {
         id: 'math15200',
@@ -42,7 +42,7 @@ const mathCourses = [
         semesters: 'Fall, Spring',
         credits: '4',
         description: 'Limits, continuity and the derivative. The power rule, product and quotient rules, the chain rule, and implicit differentiation. The Mean Value Theorem and the Intermediate Value Theorem. curve sketching and optimization, and linear approximation. Riemann integral and the Fundamental Theorem of Calculus. Various applications to economics, life sciences, and physical sciences.',
-        prereqs: ''
+        prereqs: 'MATH 12550 with a B- or better, or (coreq MATH 14000 and one of MATH 12400, MATH 12500, or MATH 12550), or appropriate score on Hunter Math Placement Exam'
     },
     {
         id: 'math15500',
@@ -51,7 +51,7 @@ const mathCourses = [
         semesters: 'Fall, Spring, Summer',
         credits: '4',
         description: 'Differentiation and integration of transcendental functions, integration techniques, infinite sequences and series, improper integrals, polar coordinates.',
-        prereqs: ''
+        prereqs: 'MATH 15000'
     },
     {
         id: 'math16000',
@@ -60,7 +60,7 @@ const mathCourses = [
         semesters: 'Fall, Spring, Summer',
         credits: '3',
         description: 'Systems of linear equations, matrices, determinants, introduction to vector spaces and linear transformations, applications.',
-        prereqs: ''
+        prereqs: 'MATH 12400, MATH 12500, MATH 12550, or appropriate score on Hunter Math Placement Exam'
     },
 
     // {
