@@ -7,6 +7,7 @@ const StatCourses = () => {
         return (
             <div className="col d-flex">
                 <CourseCard 
+                    key = {course.id}
                     course = {course.course}
                     title = {course.title}
                     description = {course.description}
