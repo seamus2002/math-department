@@ -9,6 +9,9 @@ const Undergrautate = () => {
 
     return (
         <div>
+            <br />
+            <br />
+            <br />
             <button type="button" className="btn btn-info faculty-btn" onClick={() => {setPage(<UMath />)}}>Mathematics</button>
             <button type="button" className="btn btn-info faculty-btn" onClick={() => {setPage(<UStats />)}}>Statistics</button>
             <button type="button" className="btn btn-info faculty-btn" onClick={() => {setPage(<ULogic />)}}>Logic</button>
