@@ -13,7 +13,7 @@ const Navbar = () => {
         <BrowserRouter>
             <nav className="navbar fixed-top navbar-expand-lg navbar-dark" style={{backgroundColor: '#5f259f'}}>
                 <div className="container-fluid">
-                    <NavLink exact to='/' className="navbar-brand">Department of Mathematics and Statistics</NavLink>
+                    <NavLink exact to='/' className="navbar-brand d-none d-lg-block">Department of Mathematics and Statistics</NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
