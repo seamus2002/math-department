@@ -10,6 +10,7 @@ const FullTime = () => {
                     key = {person.id}
                     name = {person.name}
                     position = {person.position}
+                    degree = {person.degree}
                     interests = {person.interests}
                     email = {person.email}
                     tel = {person.tel}
