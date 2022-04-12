@@ -9,8 +9,10 @@ const FullTimeCard = (props: any) => {
 					{/* <img src="..." className="card-img-top" alt="..." /> */}
 					<h5 className="card-title">{props.name}</h5>
 					<h6 className="card-subtitle mb-2 text-muted">{props.position}</h6>
-					<h6 className="card-subtitle mb-2">Interests: {props.interests}</h6>
-					<button type="button" className="btn btn-primary">Learn More</button>
+					<h6 className="card-subtitle mb-2"><i className="bi bi-person-heart" /> {props.interests}</h6>
+					<h6 className="card-subtitle mb-2"><i className="bi bi-map" /> {props.office}</h6>
+					<h6 className="card-subtitle mb-2"><i className="bi bi-envelope" /> {props.email}</h6>
+					<h6 className="card-subtitle mb-2"><i className="bi bi-telephone" /> {props.tel}</h6>
 				</div>
 			</div>
 		</div>

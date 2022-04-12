@@ -11,6 +11,9 @@ const FullTime = () => {
                     name = {person.name}
                     position = {person.position}
                     interests = {person.interests}
+                    email = {person.email}
+                    tel = {person.tel}
+                    office = {person.office}
                 />
             </div>
         );
