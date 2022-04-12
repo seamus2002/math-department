@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
 
 // Pages
 import Home from '../pages/Home';
-import Contacts from '../pages/Contacts';
 import People from '../pages/People';
 import Courses from '../pages/Courses';
+import Undergrautate from '../pages/Undergrautate';
 
 const Navbar = () => {
   return (
@@ -19,8 +19,8 @@ const Navbar = () => {
 
                     <ul className="nav nav-pills">
                         <li className="nav-item"><NavLink exact to='/' className='nav-link'>Home</NavLink></li>
-                        <li className="nav-item"><NavLink to='/contacts' className='nav-link'>Contacts</NavLink></li>
                         <li className="nav-item"><NavLink to='/people' className='nav-link'>People</NavLink></li>
+                        <li className="nav-item"><NavLink to='/undergraduate' className='nav-link'>Undergraduate</NavLink></li>
                         <li className="nav-item"><NavLink to='/courses' className='nav-link'>Courses</NavLink></li>
                     </ul>
                 </header>
@@ -30,11 +30,11 @@ const Navbar = () => {
                 <Route exact path="/">
                     <Home />
                 </Route>
-                <Route path="/contacts">
-                    <Contacts />
-                </Route>
                 <Route path="/people">
                     <People />
+                </Route>
+                <Route path="/undergraduate">
+                    <Undergrautate />
                 </Route>
                 <Route path="/courses">
                     <Courses />
