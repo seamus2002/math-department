@@ -7,9 +7,11 @@ const Courses = () => {
 
   return (
     <div>
-      <h1>Courses</h1>
-      <button type="button" className="btn btn-info faculty-btn" onClick={() => {setPage(<MathCourses />)}}>Mathematics</button>
-      <button type="button" className="btn btn-info faculty-btn" onClick={() => {setPage(<StatCourses />)}}>Statistics</button>
+      <h1 className='page-header'>Courses</h1>
+      <div className="btn-group" role="group">
+        <button type="button" className="btn btn-primary" onClick={() => {setPage(<MathCourses />)}}>Mathematics</button>
+        <button type="button" className="btn btn-primary" onClick={() => {setPage(<StatCourses />)}}>Statistics</button>
+      </div>
       {page}
     </div>
   );

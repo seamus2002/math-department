@@ -10,13 +10,15 @@ const Undergrautate = () => {
 
     return (
         <div>
+            <h1 className='page-header'>Undergraduate Programs</h1>
+            <div className="btn-group" role="group">
+                <button type="button" className="btn btn-primary" onClick={() => {setPage(<UMath />)}}>Mathematics</button>
+                <button type="button" className="btn btn-primary" onClick={() => {setPage(<UStats />)}}>Statistics</button>
+                <button type="button" className="btn btn-primary" onClick={() => {setPage(<ULogic />)}}>Logic</button>
+                <button type="button" className="btn btn-primary" onClick={() => {setPage(<UBAMA />)}}>BA/MA</button>
+            </div>
             <br />
             <br />
-            <br />
-            <button type="button" className="btn btn-info faculty-btn" onClick={() => {setPage(<UMath />)}}>Mathematics</button>
-            <button type="button" className="btn btn-info faculty-btn" onClick={() => {setPage(<UStats />)}}>Statistics</button>
-            <button type="button" className="btn btn-info faculty-btn" onClick={() => {setPage(<ULogic />)}}>Logic</button>
-            <button type="button" className="btn btn-info faculty-btn" onClick={() => {setPage(<UBAMA />)}}>BA/MA Programs</button>
             {page}
         </div>
     );
