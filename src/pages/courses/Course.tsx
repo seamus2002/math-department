@@ -3,7 +3,7 @@ import React from 'react';
 const Course = (props: any) => {
   return (
     <div>
-      <h1>STAT 213000: Introduction to Applied Statistics</h1>
+      <h1 className='page-header'>STAT 213000: Introduction to Applied Statistics</h1>
       <br />
       <br />
       <div className="container">
@@ -23,12 +23,8 @@ const Course = (props: any) => {
             </ul>
           </div>
           <div className="col-lg-6 description">
-            <h5>Required for</h5>
-            <ul>
-              <li>Mathematics Majors</li>
-              <li>Statistics Majors</li>
-              <li>Computer Science Majors</li>
-            </ul>
+            <h5>Credits</h5>
+            <p>3</p>
           </div>
           <div className="col-lg-6 description">
             <h5>Required Core</h5>
