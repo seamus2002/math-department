@@ -8,6 +8,7 @@ const MathCourses = () => {
             <div className="col d-flex">
                 <CourseCard 
                     key = {course.id}
+                    id = {course.id}
                     course = {course.course}
                     title = {course.title}
                     description = {course.description}

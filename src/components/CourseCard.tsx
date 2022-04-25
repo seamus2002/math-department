@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CourseCard = (props: any) => {
   return (
@@ -9,6 +10,7 @@ const CourseCard = (props: any) => {
         <h6 className="card-subtitle mb-2 text-muted">{props.description}</h6>
         <h6 className="card-subtitle mb-2">Credits: {props.credits}</h6>
         <h6 className="card-subtitle mb-2">Prereqs: {props.prereqs}</h6>
+        <Link to={`/courses/${props.id}`}><button type='button' className='btn btn-primary'>Learn More</button></Link>
       </div>
     </div>
   );
