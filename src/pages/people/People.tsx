@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import FullTime from './subpages/FullTime';
-import PartTime from './subpages/PartTime';
+import FullTime from './FullTime';
+import PartTime from './PartTime';
+
 
 const People = () => {
   const [page, setPage] = useState(<FullTime />);

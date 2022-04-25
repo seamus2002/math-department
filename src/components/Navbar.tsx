@@ -1,11 +1,6 @@
 import React from 'react';
-import { Route, Routes, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-// Pages
-import Home from '../pages/Home';
-import People from '../pages/People';
-import Courses from '../pages/Courses';
-import Undergrautate from '../pages/Undergrautate';
 
 const Navbar = () => {
   return (
@@ -26,13 +21,6 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
-
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/people" element={<People />} />
-            <Route path="/undergraduate" element={<Undergrautate />} />
-            <Route path="/courses" element={<Courses />} />
-        </Routes>
     </div>
   );
 }

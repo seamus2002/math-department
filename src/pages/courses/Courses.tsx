@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import MathCourses from './subpages/MathCourses';
-import StatCourses from './subpages/StatCourses';
+import MathCourses from './MathCourses';
+import StatCourses from './StatCourses';
+
 
 const Courses = () => {
   const [page, setPage] = useState(<MathCourses />);

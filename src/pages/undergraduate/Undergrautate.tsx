@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import UMath from './subpages/UMath';
-import UStats from './subpages/UStats';
-import ULogic from './subpages/ULogic';
-import UBAMA from './subpages/UBAMA';
+import UBAMA from './UBAMA';
+import ULogic from './ULogic';
+import UMath from './UMath';
+import UStats from './UStats';
 
 const Undergrautate = () => {
     const [page, setPage] = useState(<UMath />);
