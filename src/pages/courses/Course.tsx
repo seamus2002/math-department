@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Course = (props: any) => {
   return (
@@ -31,6 +32,9 @@ const Course = (props: any) => {
             <p>Mathematical & Quantitative Reasoning</p>
           </div>
         </div>
+        <br />
+        <br />
+        <Link to={'/courses'}><button type='button' className='btn btn-primary'>Back to Courses</button></Link>
       </div>
     </div>
   );
