@@ -15,12 +15,11 @@ const StatCourses = () => {
     }
 
     return (
-        <div>
-            <div className='container'>
-                <div className="row">
-                    {statCourses.map(createCourse)}
-                </div>  
-            </div>
+        <div className='container'>
+            <h1 className='page-header'>Undergraduate Statistics Courses</h1>
+            <hr />
+            <br />
+            {statCourses.map(createCourse)}
         </div>
     );
 }
