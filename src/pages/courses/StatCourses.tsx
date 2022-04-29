@@ -1,19 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import statCourses from '../../data/stat-courses';
 
 const StatCourses = () => {
-    const [courses, setCourses] = useState([]);
 
-    useEffect(() => {
-        fetch('https://my-json-server.typicode.com/seamus2002/math-dept-data/stat-courses')
-            .then(res => {
-                return res.json();
-            })
-            .then((data) => {
-                setCourses(data);
-            })
-    }, [])
-
-    const createCard = (course: any) => {
+    const createCourse = (course: any) => {
         return (
             <div className='courses'>
                 <h5>{ course.course }: { course.title }</h5>
@@ -28,7 +18,7 @@ const StatCourses = () => {
         <div>
             <div className='container'>
                 <div className="row">
-                    {courses.map(createCard)}
+                    {statCourses.map(createCourse)}
                 </div>  
             </div>
         </div>
