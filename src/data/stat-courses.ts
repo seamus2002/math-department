@@ -87,7 +87,7 @@ const statCourses = [
         semesters: "Fall, Spring, Summer",
         credits: 3,
         description: "Independent study in which a student selects a topic of interest to him- or herself. The study is carried out under the direction of a faculty member.",
-        prereqs: "None"
+        prereqs: "Departmental Permission"
     }
 ]
 

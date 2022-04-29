@@ -176,8 +176,161 @@ const mathCourses = [
         title: "Symbolic Logic",
         semesters: "Fall, Spring",
         credits: 3,
-        description: "Sentential logic including symbolizations, truth-value tables, and formal derivations. Predicate logic including symbolizations, interpretations, and formal derivations.",
+        description: "Sentential logic including symbolizations, truth-value tables, and formal derivations. Predicate logic including symbolizations, interpretations, and formal derivations. Cross-listed as PHILO 27500 and CSCI 27500.",
         prereqs: "None"
+    },
+    {
+        id: "math30100",
+        course: "MATH 30100",
+        title: "Mathematical Methods for the Physical Sciences",
+        semesters: "Fall Only",
+        credits: 3,
+        description: "The course will concentrate on the solution of linear partial differential equations and boundary value problems. Solution techniques such as separation of variables, Fourier series, Green's functions, and Laplace transforms will be covered. These will be applied to several equations which occur in physical applications such as the heat equation, the Laplace equation, and the wave equation.",
+        prereqs: "MATH 25400"
+    },
+    {
+        id: "math31100",
+        course: "MATH 31100",
+        title: "Abstract Algebra I",
+        semesters: "Fall, Spring",
+        credits: 3,
+        description: "Introduction to the theory of groups and rings.",
+        prereqs: "MATH 26000"
+    },
+    {
+        id: "math31300",
+        course: "MATH 31300",
+        title: "Theory of Numbers",
+        semesters: "Odd Spring Terms",
+        credits: 3,
+        description: "Congruences, quadratic residues, elementary Diophantine analysis, continued fractions, sums of squares.",
+        prereqs: "MATH 26000"
+    },
+    {
+        id: "math33100",
+        course: "MATH 33100",
+        title: "Geometries",
+        semesters: "Even Fall Terms",
+        credits: 3,
+        description: "Topics in affine and projective geometry and/or topics in differential geometry.",
+        prereqs: "MATH 26000"
+    },
+    {
+        id: "math34000",
+        course: "MATH 34000",
+        title: "Topology",
+        semesters: "Even Spring Terms",
+        credits: 3,
+        description: "Metric and topological spaces, continuity, homeomorphisms, compactness, connectedness, homotopy, fundamental group.",
+        prereqs: "MATH 35100"
+    },
+    {
+        id: "math35100",
+        course: "MATH 35100",
+        title: "Mathematical Analysis I",
+        semesters: "Fall, Summer",
+        credits: 3,
+        description: "Rigorous treatment of foundations of calculus, including topology of real line and higher dimensional spaces. Basic results on continuous functions.",
+        prereqs: "MATH 25000 and MATH 26000"
+    },
+    {
+        id: "math35200",
+        course: "MATH 35200",
+        title: "Mathematical Analysis II",
+        semesters: "Spring Only",
+        credits: 3,
+        description: "Integration, sequences and series, uniform convergence, differentiation of functions of several variables, inverse and implicit function theorems, formula for change of variables.",
+        prereqs: "MATH 35100"
+    },
+    {
+        id: "math35300",
+        course: "MATH 35300",
+        title: "Introduction to Complex Variables",
+        semesters: "Even Spring Terms, Odd Summer Terms",
+        credits: 3,
+        description: "Complex numbers, analytic functions, elementary functions, contour integrals, Cauchy integral theory, series.",
+        prereqs: "MATH 15600 and MATH 25500"
+    },
+    {
+        id: "math35400",
+        course: "MATH 35400",
+        title: "Dynamical Systems and Chaos",
+        semesters: "Even Spring Terms",
+        credits: 3,
+        description: "Linear flows, qualitative theory of low-dimensional nonlinear systems, introduction to chaos in discrete one-dimensional dynamical systems.",
+        prereqs: "MATH 25000 and MATH 26000"
+    },
+    {
+        id: "math37000",
+        course: "MATH 37000",
+        title: "Mathematical Logic (Advanced Symbolic Logic)",
+        semesters: "Odd Spring Terms",
+        credits: 3,
+        description: "A survey of the central results and techniques of metalogic, principally mathematical induction, the soundness and completeness of theorems for first-order logic, the Skolem Theorem and Church’s Theorem on undecidability. Cross-listed as PHILO 37500 and CSCI 37100.",
+        prereqs: "MATH 26000"
+    },
+    {
+        id: "math37200",
+        course: "MATH 37200",
+        title: "Logic and Computers",
+        semesters: "Odd Fall Terms",
+        credits: 3,
+        description: "This course introduces students to logic and its applications to modeling both computer and real-world systems. Topics include various logics and their applications to modeling systems and reasoning for artificial intelligence, along with proof systems and tools for automated or semi-automated reasoning in these logics. Cross-listed as CSCI 37200 and PHILO 37200.",
+        prereqs: "CSCI 15000 or PHILO 27500 or MATH 27500 or CSCI 27500"
+    },
+    {
+        id: "math37700",
+        course: "MATH 37700",
+        title: "Non-classical Logic",
+        semesters: "Even Spring Terms",
+        credits: 3,
+        description: "Logic is the systematic and precise study of reasoning—a topic of particular interest to mathematicians and computer scientists as well as philosophers. Philosophers have often functioned as the research and development wing of this collaboration, thinking up and formalizing new logical techniques and systems designed to solve problems that can’t be solved by traditional (a.k.a. “classical”) logic. This course will be an introduction to some of these non-classical logics, their philosophical motivations, and some of their applications. Cross-listed as PHIL0 37700 and CSCI 37700.",
+        prereqs: "MATH 27500 or PHILO 27500 or CSCI 27500"
+    },
+    {
+        id: "math38500",
+        course: "MATH 38500",
+        title: "Numerical Methods I",
+        semesters: "Fall, Spring, Summer",
+        credits: 3,
+        description: "Accuracy and precision, convergence, iterative and direct methods. Topics selected from: solution of polynomial equations and linear systems of equations, curve fitting and function approximation, interpolation, differentiation and integration, differential equations.",
+        prereqs: "MATH 25000 and MATH 26000"
+    },
+    {
+        id: "math391-2-3",
+        course: "MATH 39100/39200/39300",
+        title: "Independent Study in Mathematics (Undergraduate)",
+        semesters: "Fall, Spring, Summer",
+        credits: 3,
+        description: "Open to Juniors and Seniors only. Independent study and reading under direction of faculty member.",
+        prereqs: "Departmental Permission"
+    },
+    {
+        id: "math45400",
+        course: "MATH 45400",
+        title: "Calculus on Manifolds",
+        semesters: "Odd Spring Terms",
+        credits: 3,
+        description: "Functions on Euclidean space, implicit function theorem, Fubini’s Theorem, integration on chains and manifolds.",
+        prereqs: "MATH 35200"
+    },
+    {
+        id: "math48500",
+        course: "MATH 48500",
+        title: "Numerical Methods II",
+        semesters: "Even Fall Terms",
+        credits: 3,
+        description: "Advanced topics in numerical solutions to partial differential equations, finite element method, von Neumann stability analysis, finite difference method. Examples from computational fluid dynamics and structural mechanics. Cross-listed as CSCI 48500 and PHYS 48500.",
+        prereqs: "MATH 38500"
+    },
+    {
+        id: "math49000",
+        course: "MATH 49000",
+        title: "Honors Seminar",
+        semesters: "Spring Only",
+        credits: 3,
+        description: "",
+        prereqs: "Departmental Permission"
     },
 ]
 
