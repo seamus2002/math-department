@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div>
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark" style={{backgroundColor: '#5f259f'}}>
+        <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: '#5f259f'}}>
             <div className="container-fluid">
                 <NavLink to='/' className="navbar-brand d-none d-lg-block">Department of Mathematics and Statistics</NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
