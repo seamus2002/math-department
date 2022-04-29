@@ -45,6 +45,33 @@ const mathCourses = [
         prereqs: "MATH 10400 with a C or better (Only open to Childhood Education 1-6 Quest BA and Macaulay Honors College Childhood Education 1-6 Quest BA majors)"
     },
     {
+        id: "math12400",
+        course: "MATH 12400",
+        title: "College Algebra and Trigonometry",
+        semesters: "Fall, Spring, Summer",
+        credits: 3,
+        description: "This course is replacing the course MATH 12500 for students who do not intend to take calculus. Functions and their graphs; linear, quadratic, polynomial, rational, exponential, logarithmic, and trigonometric functions; topics in trigonometry; graphical and analytical solutions to systems of equations. Students who would plan on taking calculus should register for MATH 12550 instead of this course. Students who complete this course will need to register for MATH 14000 in order to take calculus. This course is equivalent to Math 12500 for grade replacement purposes.",
+        prereqs: "MATH 10100/MATH 101EN or the appropriate score on the Hunter Math Placement Exam (Not open to students who have taken MATH 12500 or MATH 12550)"
+    },
+    {
+        id: "math12550",
+        course: "MATH 12550",
+        title: "Precalculus with Workshop",
+        semesters: "Fall, Spring, Summer",
+        credits: 4,
+        description: "This course replaces the course MATH 12500 for students who intend to take calculus. It is designed to develop an understanding of topics and skills which are fundamental to the study of calculus and other science classes. The topics covered are: linear, quadratic, polynomial, rational, exponential, logarithmic, and trigonometric functions and their graphs and applications; the Fundamental Theorem of Algebra; sequences, sums, and the Binomial Theorem. In addition to lecture, students are also required to attend a 50-minute recitation session once a week. This course is equivalent to Math 12500 for grade replacement purposes.",
+        prereqs: "Math 10100/MATH 101EN with a grade of B- or better OR MATH 10150 with a grade of C or better; or the appropriate score on the Hunter Math Placement Exam (Not open to students who have taken MATH 12500)"
+    },
+    {
+        id: "math12600",
+        course: "MATH 12600",
+        title: "Precalculus Technology Laboratory",
+        semesters: "Fall, Spring",
+        credits: 1,
+        description: "Students are introduced to MATHEMATICA as a tool for exploring qualitative features of functions and solving pre-calculus problems: simplifying algebraic expressions, solving equations, plotting functions and curves, finding and approximating zeros and solving systems of equations. MATH 12600 cannot be taken for credit after a student has passed MATH 15000. Students who have passed MATH 15000 should register for MATH 15400 to satisfy the symbolic proficiency requirement.",
+        prereqs: "MATH 12400 or MATH 12500 or MATH 12550 or appropriate score on the Hunter Math Placement Exam."
+    },
+    {
         id: "math15000",
         course: "MATH 15000",
         title: "Calculus I",
