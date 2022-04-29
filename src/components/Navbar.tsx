@@ -13,9 +13,26 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul className="navbar-nav">
+                        {/* Home */}
                         <li className="nav-item"><NavLink to='/' className='nav-link'>Home</NavLink></li>
+
+                        {/* People */}
                         <li className="nav-item"><NavLink to='/people' className='nav-link'>People</NavLink></li>
-                        <li className="nav-item"><NavLink to='/undergraduate' className='nav-link'>Undergraduate</NavLink></li>
+
+                        {/* Undergraduate */}
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Undergraduate
+                            </a>
+                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><NavLink className="dropdown-item" to='/undergraduate/mathematics'>Mathematics</NavLink></li>
+                                <li><NavLink className="dropdown-item" to='/undergraduate/statistics'>Statistics</NavLink></li>
+                                <li><NavLink className="dropdown-item" to='/undergraduate/logic'>Logic</NavLink></li>
+                                <li><NavLink className="dropdown-item" to='/undergraduate/bama'>BA/MA</NavLink></li>
+                            </ul>
+                        </li>
+                        
+                        {/* Courses */}
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Courses
