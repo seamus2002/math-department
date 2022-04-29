@@ -88,7 +88,16 @@ const statCourses = [
         credits: 3,
         description: "Independent study in which a student selects a topic of interest to him- or herself. The study is carried out under the direction of a faculty member.",
         prereqs: "Departmental Permission"
-    }
+    },
+    {
+        id: "stat48600",
+        course: "STAT 48600",
+        title: "Modeling and Visualization",
+        semesters: "Even Spring Terms",
+        credits: 3,
+        description: "The development of continuous mathematical models, the resolution of the resulting differential equations by numerical techniques and the visualization of the simulated data. Problems come from various areas of the social, biological and physical sciences. Project required. Course may be used to qualify for departmental honors.",
+        prereqs: "Departmental Permission"
+    },
 ]
 
 export default statCourses;
