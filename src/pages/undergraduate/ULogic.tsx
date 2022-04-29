@@ -2,7 +2,7 @@ import React from 'react';
 
 const ULogic = () => {
     return (
-        <div className='container'>
+        <div className='container page'>
             <div className="description">
                 <h3>Logic Minor</h3>
                 <p><i>Note on Minors: As of March 2009, the selection of a minor is optional at Hunter College. The determination of courses required in a minor concentration is left to the minor departments or programs which choose to offer such sequences.</i></p>

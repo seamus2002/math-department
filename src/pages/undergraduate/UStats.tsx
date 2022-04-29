@@ -2,7 +2,7 @@ import React from 'react';
 
 const UStats = () => {
     return (
-        <div className='container'>
+        <div className='container page'>
             <div className="description">
                 <h3>Statistics Major</h3>
                 <p>The study of statistics provides the student with analytical tools that may find application in various fields within the sciences and social sciences. Bioinformatics is a rapidly developing area open to students in statistics with a working knowledge of computing and biological sciences. Actuarial science is one area open to students in Statistics who also have backgrounds in such subjects as Computer Science, Mathematics and Economics.</p>

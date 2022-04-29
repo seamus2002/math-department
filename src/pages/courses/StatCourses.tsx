@@ -15,7 +15,7 @@ const StatCourses = () => {
     }
 
     return (
-        <div className='container'>
+        <div className='container page'>
             <h1 className='page-header'>Undergraduate Statistics Courses</h1>
             <hr />
             <br />

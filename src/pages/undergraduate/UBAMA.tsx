@@ -2,7 +2,7 @@ import React from 'react';
 
 const UBAMA = () => {
     return (
-        <div className='container'>
+        <div className='container page'>
             <div className="description">
                 <h3>BA/MA Program in Mathematics or in Statistics and Applied Mathematics</h3>
                 <p>The BA/MA program offers promising students the opportunity to complete both the bachelor’s and master’s degree requirements with a minimum of 120 credits.  Requirements are the same as those for a major in the department, plus 30 credits at the graduate level.  Interested students should contact the graduate advisor for further information regarding eligibility and curriculum requirements.</p>

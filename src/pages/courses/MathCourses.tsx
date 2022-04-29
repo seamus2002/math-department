@@ -15,7 +15,7 @@ const MathCourses = () => {
     }
 
     return (
-        <div className='container'>
+        <div className='container page'>
             <h1 className='page-header'>Undergraduate Mathematics Courses</h1>
             <hr />
             <br />

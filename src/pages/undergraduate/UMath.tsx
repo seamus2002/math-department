@@ -2,7 +2,7 @@ import React from 'react';
 
 const UMath = () => {
     return (
-        <div className='container'>
+        <div className='container page'>
             <div className="description">
                 <h3>Mathematics Major</h3>
                 <p>The mathematics major introduces students to the fundamental areas of mathematics and provides some degree of specialization in one or more areas.  It trains students in the analytic thinking characteristic of pure and applied mathematics and provides familiarity with rigorous methods of mathematical proof.</p>
