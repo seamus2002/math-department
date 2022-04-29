@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/math-department/static/css/main.f13b3f2f.css",
-    "main.js": "/math-department/static/js/main.7b7061e3.js",
+    "main.css": "/math-department/static/css/main.8f89c1a6.css",
+    "main.js": "/math-department/static/js/main.1fd676f3.js",
     "index.html": "/math-department/index.html",
-    "main.f13b3f2f.css.map": "/math-department/static/css/main.f13b3f2f.css.map",
-    "main.7b7061e3.js.map": "/math-department/static/js/main.7b7061e3.js.map"
+    "main.8f89c1a6.css.map": "/math-department/static/css/main.8f89c1a6.css.map",
+    "main.1fd676f3.js.map": "/math-department/static/js/main.1fd676f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f13b3f2f.css",
-    "static/js/main.7b7061e3.js"
+    "static/css/main.8f89c1a6.css",
+    "static/js/main.1fd676f3.js"
   ]
 }
