@@ -5,7 +5,7 @@ const MathCourses = () => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:8000/math-courses')
+        fetch('https://my-json-server.typicode.com/seamus2002/math-dept-data/math-courses')
             .then(res => {
                 return res.json();
             })
