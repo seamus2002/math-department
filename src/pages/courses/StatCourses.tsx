@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import CourseCard from '../../components/CourseCard';
 
 const StatCourses = () => {
     const [courses, setCourses] = useState([]);
@@ -16,16 +15,11 @@ const StatCourses = () => {
 
     const createCard = (course: any) => {
         return (
-            <div className="col d-flex">
-                <CourseCard 
-                    key = {course.id}
-                    id = {course.id}
-                    course = {course.course}
-                    title = {course.title}
-                    description = {course.description}
-                    credits = {course.credits}
-                    prereqs = {course.prereqs}
-                />
+            <div className='courses'>
+                <h5>{ course.course }: { course.title }</h5>
+                <p>{ course.credits } Credits, { course.semesters }</p>
+                <p>{ course.description }</p>
+                <p>Prerequisites: { course.prereqs }</p>
             </div>
         );
     }
