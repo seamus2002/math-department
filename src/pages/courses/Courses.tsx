@@ -10,8 +10,8 @@ const Courses = () => {
     <div>
       <h1 className='page-header'>Courses</h1>
       <div className="btn-group" role="group">
-        <button type="button" className="btn btn-primary" onClick={() => {setPage(<MathCourses />)}}>Mathematics</button>
-        <button type="button" className="btn btn-primary" onClick={() => {setPage(<StatCourses />)}}>Statistics</button>
+        <button type="button" className="btn btn-default" onClick={() => {setPage(<MathCourses />)}}>Mathematics</button>
+        <button type="button" className="btn btn-default" onClick={() => {setPage(<StatCourses />)}}>Statistics</button>
       </div>
       {page}
     </div>
