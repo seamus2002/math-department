@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import CourseCard from '../../components/CourseCard';
-import mathCourses from '../../data/math-courses';
 
 const MathCourses = () => {
+    const [courses, setCourses] = useState([]);
+
+    useEffect(() => {
+        fetch('http://localhost:8000/math-courses')
+            .then(res => {
+                return res.json();
+            })
+            .then((data) => {
+                setCourses(data);
+            })
+    }, [])
+
     const createCard = (course: any) => {
         return (
             <div className="col d-flex">
@@ -23,7 +34,7 @@ const MathCourses = () => {
         <div>
             <div className='container'>
                 <div className="row">
-                    {mathCourses.map(createCard)}
+                    {courses.map(createCard)}
                 </div>  
             </div>
         </div>
