@@ -5,13 +5,14 @@ import Navbar from './components/Navbar';
 
 // Pages
 import Home from './pages/Home';
-import People from './pages/people/People';
 import MathCourses from './pages/courses/MathCourses';
 import StatCourses from './pages/courses/StatCourses';
 import UMath from './pages/undergraduate/UMath';
 import UStats from './pages/undergraduate/UStats';
 import ULogic from './pages/undergraduate/ULogic';
 import UBAMA from './pages/undergraduate/UBAMA';
+import FullTime from './pages/people/FullTime';
+import PartTime from './pages/people/PartTime';
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/people" element={<People />} />
+          <Route path="/people/fulltime" element={<FullTime />} />
+          <Route path="/people/parttime" element={<PartTime />} />
           <Route path="/undergraduate/mathematics" element={<UMath />} />
           <Route path="/undergraduate/statistics" element={<UStats />} />
           <Route path="/undergraduate/logic" element={<ULogic />} />

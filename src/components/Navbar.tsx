@@ -17,7 +17,17 @@ const Navbar = () => {
                         <li className="nav-item"><NavLink to='/' className='nav-link'>Home</NavLink></li>
 
                         {/* People */}
-                        <li className="nav-item"><NavLink to='/people' className='nav-link'>People</NavLink></li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                People
+                            </a>
+                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><NavLink className="dropdown-item" to='/people/fulltime'>Full Time Faculty</NavLink></li>
+                                <li><NavLink className="dropdown-item" to='/people/parttime'>Part Time Faculty</NavLink></li>
+                                <li><NavLink className="dropdown-item" to='/people/emeritus'>Emeritus Faculty</NavLink></li>
+                                <li><NavLink className="dropdown-item" to='/people/'>BA/MA</NavLink></li>
+                            </ul>
+                        </li>
 
                         {/* Undergraduate */}
                         <li className="nav-item dropdown">

@@ -17,14 +17,20 @@ const PartTime = (props: any) => {
     }
 
     return (
-        <div>
-            <h1>Part Time Faculty</h1>
+        <>
+            <div className='container'>
+                <h1 className='page-header'>Part Time Faculty</h1>
+
+                <hr />
+                <br />
+
+            </div>
             <div className='container'>
                 <div className="row">
                     {partTimeFaculty.map(createCard)}
                 </div>  
             </div>
-        </div>
+        </>
     );
 }
 
