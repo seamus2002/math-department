@@ -1,20 +1,28 @@
 {
   "files": {
     "main.css": "/math-department/static/css/main.d5b040f9.css",
-    "main.js": "/math-department/static/js/main.5c054a6f.js",
+    "main.js": "/math-department/static/js/main.fc08a610.js",
+    "static/media/vmartinez.jpg": "/math-department/static/media/vmartinez.32c173b032475113daaf.jpg",
+    "static/media/tkhodorovskiy.jpg": "/math-department/static/media/tkhodorovskiy.40dca8ffd07fcdd6b5cf.jpg",
+    "static/media/msamra.jpg": "/math-department/static/media/msamra.38b9b97c27b3b9b6719b.jpg",
+    "static/media/okharlampovich.jpg": "/math-department/static/media/okharlampovich.d50bddcf7c854b185439.jpg",
     "static/media/ikapovich.jpg": "/math-department/static/media/ikapovich.cb9bf652f86f711d33ae.jpg",
+    "static/media/dsylvan.jpg": "/math-department/static/media/dsylvan.45228808700ab60ada55.jpg",
     "static/media/dchess.jpg": "/math-department/static/media/dchess.ceda10814769dd02e1d4.jpg",
+    "static/media/lshneerson.jpg": "/math-department/static/media/lshneerson.e7cf17931b05e66a7a4e.jpg",
     "static/media/sclarkson.jpg": "/math-department/static/media/sclarkson.94a05768f1849ca4b620.jpg",
     "static/media/rchurchill.jpg": "/math-department/static/media/rchurchill.182f53eb5abef4cb637e.jpg",
     "static/media/ohadjiliadis.jpg": "/math-department/static/media/ohadjiliadis.8b7ed6aaf8e7d40018c2.jpg",
+    "static/media/wwilliams.jpg": "/math-department/static/media/wwilliams.d23b1f6d3025363686c4.jpg",
     "static/media/abasmajian.jpg": "/math-department/static/media/abasmajian.31f4b4bf9148ec7a5b32.jpg",
+    "static/media/rthompson.jpg": "/math-department/static/media/rthompson.b9fdb4ac279a54008761.jpg",
     "static/media/mbendersky.jpg": "/math-department/static/media/mbendersky.b264e598d6bfdcbae4fd.jpg",
     "index.html": "/math-department/index.html",
     "main.d5b040f9.css.map": "/math-department/static/css/main.d5b040f9.css.map",
-    "main.5c054a6f.js.map": "/math-department/static/js/main.5c054a6f.js.map"
+    "main.fc08a610.js.map": "/math-department/static/js/main.fc08a610.js.map"
   },
   "entrypoints": [
     "static/css/main.d5b040f9.css",
-    "static/js/main.5c054a6f.js"
+    "static/js/main.fc08a610.js"
   ]
 }
