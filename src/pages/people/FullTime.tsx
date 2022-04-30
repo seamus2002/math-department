@@ -10,6 +10,7 @@ const FullTime = () => {
                     key = {person.id}
                     name = {person.name}
                     position = {person.position}
+                    img = {person.img}
                     degree = {person.degree}
                     interests = {person.interests}
                     email = {person.email}
@@ -21,13 +22,15 @@ const FullTime = () => {
     }
 
     return (
-        <div>
-            <h2>Full Time Faculty</h2>
-            <div className='container'>
-                <div className="row">
-                    {fullTimeFaculty.map(createCard)}
-                </div>  
-            </div>
+        <div className='container'>
+            <h2 className='page-header'>Full Time Faculty</h2>
+
+            <hr />
+            <br />
+            
+            <div className="row">
+                {fullTimeFaculty.map(createCard)}
+            </div>  
         </div>
     );
 }

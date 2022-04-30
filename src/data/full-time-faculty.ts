@@ -1,8 +1,19 @@
+import bcherkas from './images/bcherkas.jpg';
+import abasmajian from './images/abasmajian.jpg';
+import mbendersky from './images/mbendersky.jpg';
+import dchess from './images/dchess.jpg';
+import rchurchill from './images/rchurchill.jpg';
+import sclarkson from './images/sclarkson.jpg';
+import sgentile from './images/sgentile.jpg';
+import ohadjiliadis from './images/ohadjiliadis.jpg';
+import ikapovich from './images/ikapovich.jpg';
+
 const fullTimeFaculty = [
     {
         id: 'bcherkas',
         name: 'Barry M. Cherkas',
         position: 'Professor, Department Chair',
+        img: bcherkas,
         degree: 'Ph.D, Georgetown University',
         interests: 'Partial Differential Equations, Collegiate Mathematics Education',
         office: '915 HE',
@@ -14,6 +25,7 @@ const fullTimeFaculty = [
         id: 'abasmajian',
         name: 'Ara Basmajian',
         position: 'Professor',
+        img: abasmajian,
         degree: 'Ph.D, SUNY Stony Brook',
         interests: 'Hyperbolic Geometry, Discrete Groups',
         office: '907 HE',
@@ -25,6 +37,7 @@ const fullTimeFaculty = [
         id: 'mbendersky',
         name: 'Martin Bendersky',
         position: 'Professor',
+        img: mbendersky,
         degree: 'Ph.D, University of California, Berkeley',
         interests: 'Algebraic Topology',
         office: '902 HE',
@@ -36,6 +49,7 @@ const fullTimeFaculty = [
         id: 'dchess',
         name: 'Daniel S. Chess',
         position: 'Associate Professor',
+        img: dchess,
         degree: 'Ph.D, Princeton University',
         interests: 'Structure theorems for diffeomorphisms',
         office: '913 HE',
@@ -47,6 +61,7 @@ const fullTimeFaculty = [
         id: 'rchurchill',
         name: 'Richard C. Churchill',
         position: 'Professor',
+        img: rchurchill,
         degree: 'Ph.D, Universiy of Wisconsin',
         interests: 'Differential Algebra, Dynamic Systems',
         office: '909 HE',
@@ -58,6 +73,7 @@ const fullTimeFaculty = [
         id: 'sclarkson',
         name: 'Sandra Pryor Clarkson',
         position: 'Professor',
+        img: sclarkson,
         degree: 'EdD, University of Georgia',
         interests: 'Mathematics and Statistics Education',
         office: '931 HE',
@@ -69,6 +85,7 @@ const fullTimeFaculty = [
         id: 'sgentile',
         name: 'Scott L. Gentile',
         position: 'Lecturer',
+        img: sgentile,
         degree: 'MA, Boston College',
         interests: 'Mathematics Education',
         office: '926 HE',
@@ -80,6 +97,7 @@ const fullTimeFaculty = [
         id: 'ohadjiliadis',
         name: 'Olympia Hadjiliadis',
         position: 'Professor',
+        img: ohadjiliadis,
         degree: 'Ph.D, Columbia University',
         interests: 'None',
         office: '942 HE',
@@ -91,6 +109,7 @@ const fullTimeFaculty = [
         id: 'ikapovich',
         name: 'Ilya Kapovich',
         position: 'Professor',
+        img: ikapovich,
         degree: 'Ph.D, CUNY Graduate Center',
         interests: 'Geometric Group Theory, Geometric Topology',
         office: '917 HE',
