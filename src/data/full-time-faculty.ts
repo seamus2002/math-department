@@ -7,6 +7,15 @@ import sclarkson from './images/sclarkson.jpg';
 import sgentile from './images/sgentile.jpg';
 import ohadjiliadis from './images/ohadjiliadis.jpg';
 import ikapovich from './images/ikapovich.jpg';
+import okharlampovich from './images/okharlampovich.jpg';
+import tkhodorovskiy from './images/tkhodorovskiy.jpg';
+import vmartinez from './images/vmartinez.jpg';
+import cpan from './images/cpan.jpg';
+import msamra from './images/msamra.jpg'
+import lshneerson from './images/lshneerson.jpg';
+import dsylvan from './images/dsylvan.jpg';
+import rthompson from './images/rthompson.jpg';
+import wwilliams from './images/wwilliams.jpg';
 
 const fullTimeFaculty = [
     {
@@ -121,6 +130,7 @@ const fullTimeFaculty = [
         id: 'okharlampovich',
         name: 'Olga Kharlampovich',
         position: 'Professor',
+        img: okharlampovich,
         degree: 'Dr.Sc., Moscow Steklov Institute',
         interests: 'Combinatorial Group Theory',
         office: '916 HE',
@@ -132,6 +142,7 @@ const fullTimeFaculty = [
         id: 'tkhodorovskiy',
         name: 'Tatyana Khodorovskiy',
         position: 'Lecturer',
+        img: tkhodorovskiy,
         degree: 'Ph.D, Harvard',
         interests: 'Geometric Topology, Differential Geometry',
         office: '905 HE',
@@ -143,6 +154,7 @@ const fullTimeFaculty = [
         id: 'vmartinez',
         name: 'Vincent R. Martinez',
         position: 'Assistant Professor',
+        img: vmartinez,
         degree: 'Ph.D, Indiana University',
         interests: 'Partial Differential Equations, Dynamical Systems',
         office: '918 HE',
@@ -154,6 +166,7 @@ const fullTimeFaculty = [
         id: 'cpan',
         name: 'Chun Pan',
         position: 'Associate Professor',
+        img: cpan,
         degree: 'Ph.D, University of South Carolina',
         interests: 'Interval-Censored Data',
         office: '928 HE',
@@ -165,6 +178,7 @@ const fullTimeFaculty = [
         id: 'msamra',
         name: 'Michael Samra',
         position: 'Lecturer',
+        img: msamra,
         degree: 'M.Phil., CUNY Graduate Center',
         interests: 'Mathematics',
         office: '943 HE',
@@ -176,6 +190,7 @@ const fullTimeFaculty = [
         id: 'lshneerson',
         name: 'Lev Shneerson',
         position: 'Professor',
+        img: lshneerson,
         degree: 'Ph.D, Ural State University',
         interests: 'Combinatorial Semigroup Theory',
         office: '903 HE',
@@ -187,6 +202,7 @@ const fullTimeFaculty = [
         id: 'dsylvan',
         name: 'Dana Sylvan',
         position: 'Professor',
+        img: dsylvan,
         degree: 'Ph.D, EFPL',
         interests: 'Non-stationary processes, Quantile inference',
         office: '914 HE',
@@ -198,6 +214,7 @@ const fullTimeFaculty = [
         id: 'rthompson',
         name: 'Robert D. Thompson',
         position: 'Professor',
+        img: rthompson,
         degree: 'Ph.D, University of Washington',
         interests: 'Algebraic topology',
         office: '902 HE',
@@ -209,25 +226,14 @@ const fullTimeFaculty = [
         id: 'wwilliams',
         name: 'William H. Williams',
         position: 'Professor',
+        img: wwilliams,
         degree: 'Ph.D, Iowa State University',
         interests: 'Sampling theory, Time series, Econometrics',
         office: 'Office: 904 HE',
         tel: '772-4656',
         email: 'bill.williams@hunter.cuny.edu',
         website:''
-    },
-
-    // {
-    //     id: '',
-    //     name: '',
-    //     position: '',
-    //     degree: '',
-    //     interests: '',
-    //     office: '',
-    //     tel: '',
-    //     email: '',
-    //     website:''
-    // },
+    }
 ]
 
 export default fullTimeFaculty;
