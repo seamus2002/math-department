@@ -25,7 +25,6 @@ const Navbar = () => {
                                 <li><NavLink className="dropdown-item" to='/people/fulltime'>Full Time Faculty</NavLink></li>
                                 <li><NavLink className="dropdown-item" to='/people/parttime'>Part Time Faculty</NavLink></li>
                                 <li><NavLink className="dropdown-item" to='/people/emeritus'>Emeritus Faculty</NavLink></li>
-                                <li><NavLink className="dropdown-item" to='/people/'>BA/MA</NavLink></li>
                             </ul>
                         </li>
 
