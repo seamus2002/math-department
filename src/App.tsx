@@ -13,6 +13,7 @@ import ULogic from './pages/undergraduate/ULogic';
 import UBAMA from './pages/undergraduate/UBAMA';
 import FullTime from './pages/people/FullTime';
 import PartTime from './pages/people/PartTime';
+import Emeritus from './pages/people/Emeritus';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/people/fulltime" element={<FullTime />} />
           <Route path="/people/parttime" element={<PartTime />} />
+          <Route path="/people/emeritus" element={<Emeritus />} />
           <Route path="/undergraduate/mathematics" element={<UMath />} />
           <Route path="/undergraduate/statistics" element={<UStats />} />
           <Route path="/undergraduate/logic" element={<ULogic />} />

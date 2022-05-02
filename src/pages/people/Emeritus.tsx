@@ -1,21 +1,18 @@
 import React from 'react';
-import FullTimeCard from '../../components/FullTimeCard';
-import fullTimeFaculty from '../../data/full-time-faculty';
+import EmeritusCard from '../../components/EmeritusCard';
+import emeritusFaculty from '../../data/emeritus-faculty';
 
-const FullTime = () => {
+const Emeritus = () => {
     const createCard = (person: any) => {
         return (
             <div className="col-lg-4">
-                <FullTimeCard
+                <EmeritusCard
                     key = {person.id}
                     name = {person.name}
                     position = {person.position}
-                    img = {person.img}
                     degree = {person.degree}
                     interests = {person.interests}
                     email = {person.email}
-                    tel = {person.tel}
-                    office = {person.office}
                 />
             </div>
         );
@@ -23,16 +20,16 @@ const FullTime = () => {
 
     return (
         <div className='container'>
-            <h1 className='page-header'>Full Time Faculty</h1>
+            <h1 className='page-header'>Emeritus Faculty</h1>
 
             <hr />
             <br />
             
             <div className="row">
-                {fullTimeFaculty.map(createCard)}
+                {emeritusFaculty.map(createCard)}
             </div>  
         </div>
     );
 }
 
-export default FullTime;
+export default Emeritus;
