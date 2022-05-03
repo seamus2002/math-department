@@ -47,11 +47,8 @@ const Navbar = () => {
                                 Courses
                             </a>
                             <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><NavLink className="dropdown-item" to='/courses/umath'>Mathematics (Undergraduate)</NavLink></li>
-                                <li><NavLink className="dropdown-item" to='/courses/ustats'>Statistics (Undergraduate)</NavLink></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="#">Mathematics (Graduate)</a></li>
-                                <li><a className="dropdown-item" href="#">Statistics (Graduate)</a></li>
+                                <li><NavLink className="dropdown-item" to='/courses/umath'>Mathematics</NavLink></li>
+                                <li><NavLink className="dropdown-item" to='/courses/ustats'>Statistics</NavLink></li>
                             </ul>
                         </li>
                     </ul>
