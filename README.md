@@ -1,4 +1,4 @@
-# Hunter Math Department
+# Hunter College Math Department
 
 This project was created to make a better looking website for the Hunter Mathematics and Statistics Department.
 The official site could be found at http://math.hunter.cuny.edu/
