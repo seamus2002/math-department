@@ -1,6 +1,6 @@
 {
   "name": "math-department",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://seamus2002.github.io/math-department",
   "private": true,
   "dependencies": {
