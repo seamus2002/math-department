@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/math-department/static/css/main.47ed37aa.css",
+    "main.css": "/math-department/static/css/main.c39e1e63.css",
     "main.js": "/math-department/static/js/main.db3ba93a.js",
     "static/media/vmartinez.jpg": "/math-department/static/media/vmartinez.32c173b032475113daaf.jpg",
     "static/media/tkhodorovskiy.jpg": "/math-department/static/media/tkhodorovskiy.40dca8ffd07fcdd6b5cf.jpg",
@@ -18,11 +18,11 @@
     "static/media/rthompson.jpg": "/math-department/static/media/rthompson.b9fdb4ac279a54008761.jpg",
     "static/media/mbendersky.jpg": "/math-department/static/media/mbendersky.b264e598d6bfdcbae4fd.jpg",
     "index.html": "/math-department/index.html",
-    "main.47ed37aa.css.map": "/math-department/static/css/main.47ed37aa.css.map",
+    "main.c39e1e63.css.map": "/math-department/static/css/main.c39e1e63.css.map",
     "main.db3ba93a.js.map": "/math-department/static/js/main.db3ba93a.js.map"
   },
   "entrypoints": [
-    "static/css/main.47ed37aa.css",
+    "static/css/main.c39e1e63.css",
     "static/js/main.db3ba93a.js"
   ]
 }
