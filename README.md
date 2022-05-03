@@ -1,6 +1,6 @@
 # Hunter College Math Department
 
-This project was created to make a better looking website for the Hunter Mathematics and Statistics Department.
+This project was created to make a better looking website for the Hunter Mathematics and Statistics Department.\
 The official site could be found at http://math.hunter.cuny.edu/
 
 ## Available Scripts
@@ -17,7 +17,7 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
